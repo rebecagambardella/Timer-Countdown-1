@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer sem AI</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
+     <script src="/JS/app.js"defer></script>
+
+</head>
+<body>
+
+    <div id="div-settings">
+<nav>
+    <h1>
+       Timer & Countdown
+    </h1>
+    
+      <button id ="settings" class="mdi mdi-cog">Settings</button>
+    <div id="div-button-settings">
+
+      <button id="change-background">Change color</button>
+        <button id="change-sound">Change sound</button>
+    </div>
+    
+    
+</nav>
+</div>
+<div id="timer">
+<div id="div-buttons-spr">
+    <button id="button-start">Start</button>
+   
+    <button id="button-pause">Pause</button>
+    <button id="button-restart">Restart</button>
+</div>
+<div id="counter">
+    00:00:00
+</div>
+
+<input id="countdown"type="text"placeholder = "Countdown ex: 1:30 or 45">
+<!-- <div id="alert-time-finished">
+    Your time has finished!
+    <button id="stop-sound">
+        Stop sound
+    </button>
+</div> -->
+</div>
+
+<div id="tasks">
+    <input type="text"placeholder="Add your tasks here:" id="add-tasks">
+    <button id="button-add">Add</button>
+    <div>
+    <!-- <button id="button-delete">Delete</button> -->
+    </div>
+<div id="tasks-added">
+
+    <div id="alert-time-finished" class="hidden">
+  <p>Your time has ended</p>
+  <button id="stop-sound">Stop sound</button>
+</div>
+
+</div>
+
+
+
+
+</div>
+<div id="rodape">
+<fotter>
+    <h2>All rights reserved - Rebeca Gambardella - 2026</h2>
+</fotter>
+
+</div>
+
+
+    
+</body>
+</html>
