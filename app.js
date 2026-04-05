@@ -71,9 +71,9 @@ changeColor.addEventListener('click', () => {
 // SONS
 // ===================
 const sounds = [
-  new Audio("/sounds/sound1.mp3"),
-  new Audio("/sounds/sound2.mp3"),
-  new Audio("/sounds/sound3.mp3")
+  new Audio("sound1.mp3"),
+  new Audio("sound2.mp3"),
+  new Audio("sound3.mp3")
 ];
 
 let currentSoundIndex = 0;
